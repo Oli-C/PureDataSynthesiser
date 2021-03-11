@@ -5,4 +5,6 @@
 Documentation
 ---------
 
-<iframe src="http://docs.google.com/gview?url=http://example.com/Sound Synthesis Project Report.pdf&embedded=true" style="width:718px; height:700px;" frameborder="0"></iframe>
+<object width="400" height="500" type="application/pdf" data="/Sound Synthesis Project Report.pdf?#zoom=85&scrollbar=0&toolbar=0&navpanes=0">
+    <p>error, sound synthesis report not found.</p>
+</object>
