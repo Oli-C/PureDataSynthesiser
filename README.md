@@ -1,4 +1,4 @@
-# PureData_Synthesiser
+# PureDataSynthesiser
 
 <img src="/Pure Data Synthesiser GUI.jpg" alt="Pure Data Synthesiser GUI" style="height: 100px; width:100px;"/>
 
