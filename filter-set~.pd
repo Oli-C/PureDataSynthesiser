@@ -1,0 +1,40 @@
+#N canvas 195 132 769 496 10;
+#X obj 364 180 freeverb~;
+#X obj 108 116 knob 25 25 0 1 0 0 sendwet QlistWet empty 0 -8 0 8 -1
+-258113 -262144 1500 1;
+#X obj 107 151 knob 25 25 0 1 0 0 sendroomsize QlistRoom empty 0 -8
+0 8 -1 -258113 -128992 1700 1;
+#X text 138 119 Wet;
+#X text 136 154 Roomsize;
+#X obj 348 289 outlet~;
+#X obj 414 293 outlet~;
+#X msg 516 137 roomsize \$1;
+#X obj 517 35 r sendwet;
+#X obj 516 111 r sendroomsize;
+#X obj 347 118 inlet~;
+#X obj 396 119 inlet~;
+#X msg 517 84 wet \$1;
+#X obj 515 175 r senddry;
+#X obj 166 116 knob 25 25 0 1 0 0 senddry empty empty 0 -8 0 8 -1 -258113
+-128992 2400 1;
+#X msg 516 225 dry \$1;
+#X text 195 120 Dry;
+#X obj 172 28 loadbang;
+#X msg 172 60 1;
+#X obj 516 199 \$1 500;
+#X obj 518 61 \$1 500;
+#X connect 0 0 5 0;
+#X connect 0 1 6 0;
+#X connect 7 0 0 0;
+#X connect 8 0 20 0;
+#X connect 9 0 7 0;
+#X connect 10 0 0 0;
+#X connect 11 0 0 1;
+#X connect 12 0 0 0;
+#X connect 13 0 19 0;
+#X connect 15 0 0 0;
+#X connect 17 0 18 0;
+#X connect 18 0 14 0;
+#X connect 19 0 15 0;
+#X connect 20 0 12 0;
+#X coords 0 -1 1 1 160 80 2 100 100;

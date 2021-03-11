@@ -1,0 +1,81 @@
+#N canvas 0 22 1395 856 10;
+#X obj 13 212 cnv 15 810 510 empty empty empty 20 12 0 14 -210522 -66577
+0;
+#X obj 824 212 cnv 15 800 400 empty empty empty 20 12 0 14 -104884
+-66577 0;
+#X obj 1276 220 cnv 15 340 220 empty empty empty 20 12 0 14 -262144
+-66577 0;
+#X obj 401 561 cnv 15 200 140 empty empty empty 20 12 0 14 -262144
+-66577 0;
+#X obj 232 632 cnv 15 160 80 empty empty empty 20 12 0 14 -228856 -66577
+0;
+#X obj 1096 488 cnv 15 100 100 empty empty empty 20 12 0 14 -262144
+-66577 0;
+#X obj 13 212 FMa~;
+#X obj 823 212 MD~;
+#X obj -2 181 cnv 20 10 10 empty empty SYNTH_OF_ADDITION/FM 20 12 2
+20 -262144 -258113 0;
+#X obj 813 184 cnv 20 10 10 empty empty SEQUENCER_TO_WAVETABLE 20 12
+2 20 -262144 -13381 0;
+#X obj 272 52 cnv 20 10 10 empty empty Welcome_to_Y3859110's_Sound_Synth_Project
+20 12 2 45 -262144 -1 0;
+#X obj 273 53 cnv 20 10 10 empty empty Welcome_to_Y3859110's_Sound_Synth_Project
+20 12 2 45 -262144 -4034 0;
+#X obj 274 53 cnv 20 10 10 empty empty Welcome_to_Y3859110's_Sound_Synth_Project
+20 12 2 45 -262144 -258113 0;
+#X obj 276 52 cnv 20 10 10 empty empty Welcome_to_Y3859110's_Sound_Synth_Project
+20 12 2 45 -262144 -260097 0;
+#X obj 278 53 cnv 20 10 10 empty empty Welcome_to_Y3859110's_Sound_Synth_Project
+20 12 2 45 -262144 -212173 0;
+#X obj 277 53 cnv 20 10 10 empty empty Welcome_to_Y3859110's_Sound_Synth_Project
+20 12 2 45 -262144 -257985 0;
+#X obj 277 54 cnv 20 10 10 empty empty Welcome_to_Y3859110's_Sound_Synth_Project
+20 12 2 45 -262144 -1 0;
+#X obj 95 722 cnv 20 600 35 empty empty Press_Spacebar_to_Play_a_Note
+20 16 0 30 -4034 -262144 0;
+#X obj 824 612 cnv 15 300 110 empty empty empty 20 12 0 14 -260097
+-66577 0;
+#X obj 823 612 sampleplayer~;
+#X obj 603 215 cnv 1 1 1 empty empty ADDITIVE-SINE-WAVES 20 12 0 14
+-261234 -1 0;
+#X text 1400 308 DRAW WAVE HERE;
+#X obj 1125 613 cnv 20 1 1 empty empty To_View_inner_workings: 20 16
+0 20 -262144 -1 0;
+#X text 1212 643 There are three main objects here: FMa~ (This is the
+main synth which consists of addition and Fm techniques) MD~ (This
+is the wavetable and sequencer combo) and finally SamplePlayer~ (This
+is purely a .wav file player to dac and has a few samples stored within
+it). Purely click on the large synth objects and open them. If this
+does not work then look inside the main .zip file for individual patches.
+;
+#X obj 1251 112 bng 60 250 50 0 empty empty empty 17 7 0 10 -4034 -1
+-1;
+#X obj 1222 129 cnv 20 1 1 empty empty ║PLAY║ 30 12 2 15 -262144
+-262144 0;
+#N canvas 653 275 651 435 AudioDemoTrack 0;
+#X obj 180 152 qlist;
+#X msg 245 109 read qlist.txt;
+#X msg 98 111 tempo 1;
+#X obj 181 55 inlet;
+#X text 263 62 The Magical Qlist which makes it all happen;
+#X text 42 176 All of the objects recieve inside their repsective patches
+;
+#X connect 1 0 0 0;
+#X connect 2 0 0 0;
+#X connect 3 0 2 0;
+#X connect 3 0 1 0;
+#X connect 3 0 0 0;
+#X restore 1251 180 pd AudioDemoTrack;
+#X text 1191 82 PLEASE MAKE SURE THAT AUDIO DEMO IS ONLY PLAYED AFTER
+GUI PATCH HAS JUST BEEN OPENED FOR BEST RESULTS (original settings)
+;
+#X text 1318 123 (If a replay is required \, best results occur if
+patch is reopened);
+#X obj 754 104 cnv 20 420 27 empty empty Press_PLAY_to_listen_to_Audio_Demo_->
+5 12 0 18 -4034 -262144 0;
+#X text 788 135 To do while playing: Play about with 'drunk' wave feature
+and master levels of RED SYNTH. Change notes and variables of the notes
+on BLUE SYNTH.;
+#X obj 95 757 cnv 20 600 35 empty empty (or_hold_for_continuous_playback)
+32 16 0 25 -4034 -262144 0;
+#X connect 24 0 26 0;

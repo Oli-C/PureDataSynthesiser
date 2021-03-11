@@ -1,0 +1,125 @@
+#N canvas 183 22 1128 751 10;
+#X obj 581 31 bng 15 250 50 0 empty 125BpmSampleBeat empty 17 7 0 10
+-4034 -260097 -1;
+#X obj 585 124 soundfiler;
+#X floatatom 607 161 5 0 0 0 - - -;
+#X obj 608 189 s samplesize;
+#X obj 481 154 expr 44100 / $f1;
+#X obj 481 216 phasor~;
+#X obj 481 330 *~;
+#X obj 509 313 r samplesize;
+#X obj 606 318 metro 50;
+#X obj 606 292 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 1
+1;
+#X obj 606 347 snapshot~;
+#X floatatom 606 372 10 0 0 0 - - -;
+#X obj 606 399 /;
+#X obj 650 382 r samplesize;
+#X floatatom 606 425 5 0 0 0 - - -;
+#X obj 681 426 hsl 130 20 0 1 0 0 sendsampleposition empty empty -2
+-8 0 10 -228856 -262144 -1 6576 1;
+#X msg 539 199 0;
+#X obj 465 518 dac~ 1 2;
+#N canvas 0 22 450 278 (subpatch) 0;
+#X array channelR 84672 float 2;
+#X coords 0 1 84672 -1 200 140 1 0 0;
+#X restore 535 619 graph;
+#N canvas 0 22 450 278 (subpatch) 0;
+#X array channelL 84672 float 2;
+#X coords 0 1 84672 -1 200 140 1 0 0;
+#X restore 311 618 graph;
+#X obj 437 576 hsl 130 20 0 1 0 0 empty samplevolumemaster empty -2
+-8 0 10 -228856 -262144 -1 0 1;
+#X obj 460 486 *~;
+#X obj 512 486 *~;
+#X obj 433 389 tabread4~ channelR;
+#X obj 467 424 tabread4~ channelL;
+#X msg 585 95 read -resize \$1 channelL channelR;
+#X msg 580 60 read 125BpmSampleBeat.wav;
+#X msg 415 69 read 1-DnB175bpm.wav;
+#X msg 661 34 read 2-DnB175bpm.wav;
+#X msg 422 32 read Bigroom128bpm.wav;
+#X msg 787 59 read Dubstep140bpm.wav;
+#X obj 419 3 bng 15 250 50 0 empty Bigroom128bpm empty 17 7 0 10 -4034
+-260097 -1;
+#X obj 803 36 bng 15 250 50 0 empty Dubstep140bp empty 17 7 0 10 -4034
+-260097 -1;
+#X obj 378 49 bng 15 250 50 0 empty 1-DnB175bpm empty 17 7 0 10 -4034
+-260097 -1;
+#X obj 665 12 bng 15 250 50 0 empty 2-DnB175bpm empty 17 7 0 10 -4034
+-260097 -1;
+#X obj 105 143 bng 15 250 50 0 125BpmSampleBeat empty empty 17 7 0
+10 -4034 -260097 -1;
+#X obj 105 165 bng 15 250 50 0 Bigroom128bpm empty empty 17 7 0 10
+-4034 -260097 -1;
+#X obj 221 142 bng 15 250 50 0 Dubstep140bp empty empty 17 7 0 10 -4034
+-260097 -1;
+#X obj 221 166 bng 15 250 50 0 1-DnB175bpm empty empty 17 7 0 10 -4034
+-260097 -1;
+#X obj 105 187 bng 15 250 50 0 2-DnB175bpm empty empty 17 7 0 10 -4034
+-260097 -1;
+#X obj 340 104 vsl 50 100 0 1 0 0 samplevolumemaster empty empty 0
+-9 0 10 -228856 -260097 -1 0 1;
+#X text 124 143 House 125 Bpm;
+#X text 240 165 DnB 175 Bpm;
+#X text 124 187 DnB 175 Bpm;
+#X text 240 142 Dubstep 140 Bpm;
+#X obj 221 105 hsl 110 20 0 1 0 0 empty sendsampleposition empty -2
+-8 0 10 -228856 -262144 -1 5556 1;
+#X text 112 103 =Sample Player=;
+#X text 105 121 Beats:;
+#X obj 596 255 loadbang;
+#X text 355 144 VOL;
+#X text 231 106 sample position;
+#X obj 552 236 bng 15 250 50 0 empty RESETsample empty 17 7 0 10 -262144
+-1 -1;
+#X obj 202 185 bng 20 250 50 0 RESETsample empty empty 17 7 0 10 -204786
+-260097 -1;
+#X text 227 186 Reset to start;
+#X text 676 125 Reads samples in to the graphs for left and right channels
+;
+#X text 140 409 Reads produced graphs and plays back through DAC;
+#X text 477 125 Sample rate;
+#X text 124 164 BigRoom 140 Bpm;
+#X obj 44 67 r Smp;
+#X text 27 45 For Audio Demo;
+#X obj 99 65 r Smv;
+#X connect 0 0 26 0;
+#X connect 1 0 2 0;
+#X connect 1 0 4 0;
+#X connect 2 0 3 0;
+#X connect 4 0 5 0;
+#X connect 5 0 6 0;
+#X connect 6 0 10 0;
+#X connect 6 0 23 0;
+#X connect 6 0 24 0;
+#X connect 7 0 6 1;
+#X connect 8 0 10 0;
+#X connect 9 0 8 0;
+#X connect 10 0 11 0;
+#X connect 11 0 12 0;
+#X connect 12 0 14 0;
+#X connect 13 0 12 1;
+#X connect 14 0 15 0;
+#X connect 16 0 5 1;
+#X connect 20 0 21 1;
+#X connect 20 0 22 1;
+#X connect 21 0 17 0;
+#X connect 22 0 17 1;
+#X connect 23 0 21 0;
+#X connect 24 0 22 0;
+#X connect 25 0 1 0;
+#X connect 26 0 25 0;
+#X connect 27 0 25 0;
+#X connect 28 0 25 0;
+#X connect 29 0 25 0;
+#X connect 30 0 25 0;
+#X connect 31 0 29 0;
+#X connect 32 0 30 0;
+#X connect 33 0 27 0;
+#X connect 34 0 28 0;
+#X connect 48 0 9 0;
+#X connect 51 0 16 0;
+#X connect 58 0 35 0;
+#X connect 60 0 40 0;
+#X coords 0 -1 1 1 300 110 2 100 100;

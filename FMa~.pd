@@ -1,0 +1,1066 @@
+#N canvas 38 72 971 776 10;
+#N canvas 318 203 813 543 square 0;
+#X obj 76 149 phasor~;
+#N canvas 0 22 450 300 (subpatch) 0;
+#X array square 2051 float 3;
+#A 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+-1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+-1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+-1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+-1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+-1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+-1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+-1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+-1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+-1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+-1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+-1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+-1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 1
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+1 1 1 1 1 1 1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+-1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+-1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+-1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+-1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+-1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+-1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+-1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+-1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+-1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+-1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+-1 -1 -1 -1 -1 -1;
+#A 1000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+-1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+-1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+-1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+-1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+-1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+-1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+-1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+-1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 1 1 1 1 1 1 1 1 1 1 1
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 -1 -1
+-1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+-1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+-1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+-1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+-1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+-1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+-1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+-1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+-1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+-1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+-1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+-1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+-1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+-1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+-1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+-1 -1 -1 -1 -1 -1 -1;
+#A 2000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+-1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+-1 -1 -1 -1 -1 -1 -1 -1;
+#X coords 0 1 2050 -1 200 140 1 0 0;
+#X restore 313 48 graph;
+#X obj 555 203 tabwrite~ square;
+#X obj 555 170 metro 100;
+#X obj 555 142 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 1
+1;
+#X obj 76 368 outlet~;
+#X obj 76 326 *~;
+#X obj 131 310 line~;
+#X obj 77 187 expr~ if($v1 < 0.5 \, -1 \, 1);
+#X obj 74 110 mtof;
+#X obj 76 2 inlet freq;
+#X floatatom 76 29 5 0 0 0 - - -;
+#X obj 76 56 int;
+#X floatatom 105 76 5 0 0 0 - - squareINT;
+#X obj 131 242 inlet volume;
+#X obj 132 275 \$1 50;
+#X text 246 239 PRODUCTION OF SQUARE WAVE;
+#X text 246 258 The phasor is limited by ranging the phasor to a limit
+of 0.5. expr checks when the phasor ramp is less than 0.5 \, it ouputs
+-1 and 1 respectively if it is. Thus \, forming a square wave.;
+#X obj 578 77 loadbang;
+#X connect 0 0 8 0;
+#X connect 3 0 2 0;
+#X connect 4 0 3 0;
+#X connect 6 0 5 0;
+#X connect 7 0 6 1;
+#X connect 8 0 2 0;
+#X connect 8 0 6 0;
+#X connect 9 0 0 0;
+#X connect 10 0 11 0;
+#X connect 11 0 12 0;
+#X connect 12 0 13 0;
+#X connect 12 0 9 0;
+#X connect 14 0 15 0;
+#X connect 15 0 7 0;
+#X connect 18 0 4 0;
+#X restore -384 88 pd square;
+#N canvas 768 126 646 567 sawtooth 0;
+#X obj 91 157 phasor~;
+#X obj 128 246 inlet Volume;
+#X obj 126 304 line~;
+#X obj 92 193 expr~ $v1 - 0.5 * 2;
+#X obj 91 330 *~;
+#X msg 127 272 \$1 25;
+#X obj 89 123 mtof;
+#X obj 91 365 outlet~;
+#X obj 89 31 inlet freq;
+#X floatatom 89 58 5 0 0 0 - - -;
+#X obj 89 85 int;
+#X floatatom 129 102 5 0 0 0 - - sawtoothINT;
+#X connect 0 0 3 0;
+#X connect 1 0 5 0;
+#X connect 2 0 4 1;
+#X connect 3 0 4 0;
+#X connect 4 0 7 0;
+#X connect 5 0 2 0;
+#X connect 6 0 0 0;
+#X connect 8 0 9 0;
+#X connect 9 0 10 0;
+#X connect 10 0 11 0;
+#X connect 10 0 6 0;
+#X restore -421 27 pd sawtooth;
+#X obj -429 95 +~;
+#X obj -459 49 +~;
+#X obj -429 177 +~;
+#X obj -308 119 r triangleV;
+#X obj -333 41 r squareV;
+#X obj -521 5 r sineF;
+#X obj -482 -13 r sineV;
+#X obj -359 -15 r sawtoothV;
+#X obj 116 151 vsl 40 130 0 127 0 0 sineF drunkSine empty 0 -9 0 10
+-204800 -260097 -1 5180 1;
+#X obj 162 151 vsl 38 130 0 1 0 0 sineV QlistSineV empty 0 40 0 10
+-228856 -260097 -99865 0 1;
+#X text 170 206 VOL;
+#X text 123 208 SINE;
+#X obj 205 151 vsl 40 130 0 127 0 0 squareF drunkSquare empty 0 -9
+0 10 -204786 -260097 -1 3149 1;
+#X obj 250 151 vsl 38 130 0 1 0 0 squareV squareVolSet empty 0 40 0
+10 -228856 -260097 -99865 0 1;
+#X text 259 206 VOL;
+#X obj 117 291 vsl 40 130 0 127 0 0 sawtoothF drunkSawtooth empty 0
+-9 0 10 -261364 -260097 -1 0 1;
+#X obj 162 291 vsl 38 130 0 1 0 0 sawtoothV empty empty 0 40 0 10 -228856
+-260097 -99865 0 1;
+#X text 171 346 VOL;
+#X obj 205 291 vsl 40 130 0 127 0 0 triangleF drunkTriangle empty 0
+-9 0 10 -232576 -260097 -1 0 1;
+#X obj 250 291 vsl 38 130 0 1 0 0 triangleV empty empty 0 40 0 10 -228856
+-260097 -99865 0 1;
+#X text 259 346 VOL;
+#X text 207 208 SQUARE;
+#X obj -395 124 r triangleF;
+#X obj -421 4 r sawtoothF;
+#N canvas 85 127 1395 692 triangle 0;
+#X obj 445 279 phasor~;
+#X msg 505 262 0;
+#X obj 663 489 outlet~;
+#X obj 815 84 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
+1;
+#X obj 815 106 metro 200;
+#X obj 815 145 tabwrite~ triangle;
+#N canvas 0 22 450 300 (subpatch) 0;
+#X array triangle 888 float 3;
+#A 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0;
+#X coords 0 1 887 -1 200 140 1;
+#X restore 605 152 graph;
+#X obj 445 307 expr~ $v1 \; if ($v1 > 0.5 \, 1 - $v1 \, $v1) * 4 -
+1 \;;
+#X obj 736 357 inlet volume;
+#X obj 663 430 *~;
+#X obj 691 403 line~;
+#X obj 736 386 \$1 25;
+#X obj 444 253 mtof;
+#X obj 446 145 inlet freq;
+#X floatatom 446 172 5 0 0 0 - - -;
+#X obj 446 199 int;
+#X floatatom 486 216 5 0 0 0 - - triangleINT;
+#X obj 741 447 s~ triangle graph;
+#X obj 699 127 r~ triangle graph;
+#X text 327 280 positive sawtooth;
+#X text 260 369 A math object is used connected to a phasor \; which
+is limited in the range of 0 -> 0.5. If the signal is greater than
+0.5 \, the value 1 is output. Otherwise \, output the unchanged signal.
+This produces the sharp peaks of a triangle wave. The wave is then
+scaled in to the range 0 -> 2 Finally \, translated to range -1 ->
+1 by misusing one from the signal value. Therefore \, producing a pure
+triangle wave.;
+#X text 268 349 PRODUCTION OF TRIANGLE WAVE;
+#X connect 0 0 7 0;
+#X connect 1 0 0 1;
+#X connect 3 0 4 0;
+#X connect 4 0 5 0;
+#X connect 7 1 9 0;
+#X connect 8 0 11 0;
+#X connect 9 0 2 0;
+#X connect 9 0 17 0;
+#X connect 10 0 9 1;
+#X connect 11 0 10 0;
+#X connect 12 0 0 0;
+#X connect 13 0 14 0;
+#X connect 14 0 15 0;
+#X connect 15 0 16 0;
+#X connect 15 0 12 0;
+#X connect 18 0 5 0;
+#X restore -395 148 pd triangle;
+#X obj -384 61 r squareF;
+#X obj -433 691 *~;
+#X obj -271 588 key;
+#X obj -272 673 vline~;
+#X obj 314 147 VU~;
+#X obj 427 150 vsl 45 275 0 1 0 0 mastervol empty empty 0 -9 0 10 -99865
+-260097 -1 20550 1;
+#X floatatom 143 408 5 0 0 0 - sawtoothINT -;
+#X floatatom 231 408 5 0 0 0 - triangleINT -;
+#X floatatom 144 149 5 0 0 0 - sineINT -;
+#X floatatom 234 149 5 0 0 0 - squareINT -;
+#N canvas 0 22 1297 742 (subpatch) 0;
+#X array BIGBOYWAVE 800 float 1;
+#A 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
+#X coords 0 1 800 -1 200 140 1 0 0;
+#X restore 488 449 graph;
+#X floatatom 426 413 5 0 0 0 - mastervolvalue -;
+#X obj 485 151 vsl 20 128 0 127 0 0 FMcarrierF FMcarrierF empty 0 -9
+0 10 -260097 -4032 -1 12700 1;
+#X obj 513 151 vsl 20 128 -100 8000 0 0 FMmodF FMmodF empty 0 -9 0
+10 -260097 -4034 -1 158 1;
+#X obj 541 151 vsl 20 128 -200 20000 0 0 FMmodNO FMmodNO empty 0 -9
+0 10 -260097 -257985 -1 151 1;
+#X obj -377 382 spigot~;
+#X obj 533 291 tgl 35 0 FM-SYNTH-ON FM-SYNTH-ON empty 17 7 0 10 -4034
+-260097 -1 1 1;
+#X text 532 300 ON/OFF;
+#X text 475 299 FM SYNTH;
+#X text -376 402 FM Synth is added here;
+#N canvas 132 158 1106 792 pulse 0;
+#X obj 100 176 phasor~;
+#X obj 121 396 outlet~;
+#X obj 121 354 *~;
+#X obj 136 312 line~;
+#X obj 99 142 inlet~ freq;
+#X obj 136 263 inlet vol;
+#X obj 462 254 expr~ $v1 > 0.5;
+#X obj 461 189 mtof;
+#X obj 329 93 inlet width;
+#X obj 297 193 expr~ $v1 > 0.5;
+#X obj 599 320 expr~ $v1 > 0.5;
+#X obj 599 266 nbx 5 14 -1e+37 1e+37 0 0 empty empty empty 0 -8 0 10
+-262144 -1 -1 1100 256;
+#X obj 464 165 hsl 128 15 10 50 0 0 empty empty empty -2 -8 0 10 -262144
+-1 -1 12700 1;
+#X obj 297 268 expr~ $v1 || $v2;
+#X obj 462 222 phasor~;
+#X obj 599 287 phasor~;
+#X obj 136 287 \$1 50;
+#X text -48 200 Main Frequency set and Production of a square wave
+;
+#N canvas 0 22 450 278 (subpatch) 0;
+#X array pulseview 100 float 3;
+#A 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+1;
+#X coords 0 1 99 -1 200 140 1;
+#X restore 752 395 graph;
+#X obj 816 321 metro 100;
+#X obj 816 293 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
+1;
+#X obj 816 354 tabwrite~ pulseview;
+#X obj 297 337 expr~ $v1 == $v2;
+#X text 262 368 PRODUCTION OF PULSE WAVE;
+#X text 261 389 The pulse wave is produced by combing three square
+waves \, First checking if the phasor ramp is greater than 0.5. If
+it is \, it outputs a 1 and if not a 0 The two signals are then passed
+trhough an OR gate (|| logic operation) to check if the values are
+both 0 Outputting a 1 if they are and a 0 if they aren't. Finally an
+equal operation (==) is used where if both values are a 1 from ramping
+limits \, it outputs a 1 and if both are 0 \, outputs a 0 The equal
+operation changes pulse width. Where as pulse frequency is changed
+by the initial frequency of oscilltion from the first square wave.
+;
+#X connect 0 0 9 0;
+#X connect 2 0 1 0;
+#X connect 3 0 2 1;
+#X connect 4 0 0 0;
+#X connect 5 0 16 0;
+#X connect 6 0 13 1;
+#X connect 7 0 14 0;
+#X connect 8 0 12 0;
+#X connect 8 0 11 0;
+#X connect 9 0 13 0;
+#X connect 10 0 22 1;
+#X connect 11 0 12 0;
+#X connect 11 0 15 0;
+#X connect 12 0 7 0;
+#X connect 13 0 22 0;
+#X connect 14 0 6 0;
+#X connect 15 0 10 0;
+#X connect 16 0 3 0;
+#X connect 19 0 21 0;
+#X connect 20 0 19 0;
+#X connect 22 0 2 0;
+#X connect 22 0 21 0;
+#X restore -390 226 pd pulse;
+#X text -313 79 PD Objects for 5 different wave types;
+#X obj -378 197 r pulseF;
+#X obj -321 202 r pulseV;
+#X obj -263 215 r pulseW;
+#X obj 533 332 tgl 35 0 pulse-ON pulse-ON empty 17 7 0 10 -4034 -260097
+-1 1 1;
+#X text 483 341 PULSE;
+#X text 532 342 ON/OFF;
+#X obj -170 156 r~ BIGSIGNAL;
+#X obj -433 731 s~ BIGSIGNAL;
+#X obj -102 230 *~;
+#X obj -40 482 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 1
+1;
+#X obj -40 505 metro 100;
+#X obj -119 516 *~ -0.5;
+#X obj -40 533 tabwrite~ BIGBOYWAVE;
+#X obj -71 -45 r mastervol;
+#X floatatom -71 -22 5 0 0 0 - - -;
+#X floatatom 4 33 5 0 0 0 - - mastervolvalue;
+#X obj -27 -6 * 100;
+#X obj -27 16 int;
+#X obj -40 457 loadbang;
+#X obj -148 278 dac~;
+#X text -242 588 Key to trigger the wave playback (takes ASCII Values)
+;
+#X text -347 245 Pulse is added here;
+#X obj 576 290 vsl 38 135 0 500 0 0 pulseF QlistPF empty 0 -9 0 10
+-262130 -260097 -1 10452 1;
+#X obj 620 290 vsl 38 135 0 1 0 0 pulseV QlistPV empty 0 40 0 10 -228856
+-260097 -99865 0 1;
+#X obj 479 378 hsl 90 50 0 1100 0 0 pulseW QlistPW empty -2 -8 0 10
+-262130 -260097 -1 8900 1;
+#X text 579 351 PULSE;
+#X text 630 352 VOL;
+#X text 515 109 2 Modulation F.;
+#X text 483 99 1 Carrier F.;
+#X text 546 119 3 Modulation No.;
+#X obj 575 151 vsl 38 128 0 1 0 0 FMv FMvolumeQlist empty 0 40 0 10
+-228856 -260097 -99865 635 1;
+#X text 584 205 VOL;
+#X text 112 124 (Values on sliders are MIDI values of Frequency);
+#N canvas 412 107 905 641 sine 0;
+#X obj 399 276 outlet~;
+#X obj 401 241 *~;
+#X obj 425 120 inlet vol;
+#X obj 331 224 osc~;
+#X obj 431 181 line~;
+#X msg 426 153 \$1 25;
+#X obj 331 192 mtof;
+#X obj 331 89 inlet freq;
+#X floatatom 331 116 5 0 0 0 - - -;
+#X obj 331 143 int;
+#X floatatom 274 161 5 0 0 0 - - sineINT;
+#X connect 1 0 0 0;
+#X connect 2 0 5 0;
+#X connect 3 0 1 0;
+#X connect 4 0 1 1;
+#X connect 5 0 4 0;
+#X connect 6 0 3 0;
+#X connect 7 0 8 0;
+#X connect 8 0 9 0;
+#X connect 9 0 10 0;
+#X connect 9 0 6 0;
+#X restore -521 32 pd sine;
+#X obj -85 267 s~ OUTPUT;
+#X obj 342 3 r~ OUTPUT;
+#X obj -81 36 line~;
+#X msg -81 13 \$1 25;
+#X obj -429 291 +~;
+#X text 489 394 PULSE WIDTH;
+#X obj -429 399 +~;
+#X obj -318 356 r FM-SYNTH-ON;
+#X obj 717 66 s~ FMOut;
+#X obj -377 358 r~ FMOut;
+#X obj 782 15 r FMv;
+#N canvas 92 252 921 499 FM-SYNTH 0;
+#X obj 522 262 line~;
+#X obj 522 235 \$1 50;
+#X obj 523 210 inlet vol;
+#X floatatom 262 194 5 0 0 0 - - -;
+#X text 250 177 Carrier;
+#X obj 262 244 osc~;
+#X floatatom 318 145 5 0 0 0 - - -;
+#X obj 318 172 osc~;
+#X obj 318 203 *~;
+#X obj 262 220 +~;
+#X floatatom 380 187 7 0 0 0 - - -;
+#X text 385 166 Mod index;
+#X obj 138 177 inlet carrierF;
+#X obj 318 92 inlet ModulationF;
+#X obj 458 170 inlet ModulationNo.;
+#X obj 333 285 *~;
+#X obj 314 315 outlet~;
+#X obj 213 14 r Fmc;
+#X obj 336 16 r Fmi;
+#X obj 285 16 r Fmm;
+#X text 202 -14 Qlist Audio Demo Recieve Objects;
+#X obj 142 212 s FMcarrierF;
+#X obj 395 217 s FMmodNO;
+#X obj 413 129 s FMmodF;
+#X connect 0 0 15 1;
+#X connect 1 0 0 0;
+#X connect 2 0 1 0;
+#X connect 3 0 9 0;
+#X connect 3 0 21 0;
+#X connect 5 0 15 0;
+#X connect 6 0 7 0;
+#X connect 6 0 23 0;
+#X connect 7 0 8 0;
+#X connect 8 0 9 1;
+#X connect 9 0 5 0;
+#X connect 10 0 8 1;
+#X connect 10 0 22 0;
+#X connect 12 0 3 0;
+#X connect 13 0 6 0;
+#X connect 14 0 10 0;
+#X connect 15 0 16 0;
+#X connect 17 0 3 0;
+#X connect 18 0 10 0;
+#X connect 19 0 6 0;
+#X restore 717 43 pd FM-SYNTH;
+#X obj 655 14 r FMcarrierF;
+#X obj -271 621 select 32;
+#X obj -358 274 spigot~;
+#X obj -300 266 r pulse-ON;
+#X obj 678 -25 r FMmodF;
+#X obj 745 -26 r FMmodNO;
+#N canvas 11 139 718 386 DrunkSTEPS 0;
+#X obj 365 122 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
+1;
+#X obj 365 203 drunk 10;
+#X floatatom 365 226 5 0 0 0 - - -;
+#X obj 365 310 outlet;
+#X floatatom 108 166 5 0 0 0 - - -;
+#X floatatom 180 133 5 0 0 0 - - -;
+#X obj 365 88 inlet;
+#X obj 365 153 metro 125;
+#X obj 444 123 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
+1;
+#X obj 444 204 drunk 10;
+#X floatatom 444 227 5 0 0 0 - - -;
+#X obj 444 311 outlet;
+#X obj 444 89 inlet;
+#X obj 444 154 metro 125;
+#X obj 522 123 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
+1;
+#X obj 522 204 drunk 10;
+#X floatatom 522 227 5 0 0 0 - - -;
+#X obj 522 311 outlet;
+#X obj 522 89 inlet;
+#X obj 522 154 metro 125;
+#X obj 598 124 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
+1;
+#X obj 598 205 drunk 10;
+#X floatatom 598 228 5 0 0 0 - - -;
+#X obj 598 312 outlet;
+#X obj 598 90 inlet;
+#X obj 598 155 metro 125;
+#X obj 51 59 inlet range of drunk;
+#X obj 180 100 inlet step size of drunk;
+#X obj 466 25 r FINALBPM;
+#X floatatom 36 247 5 0 0 0 - - -;
+#X obj 36 224 inlet drunk value minimum;
+#X obj 366 264 +;
+#X obj 444 263 +;
+#X obj 597 263 +;
+#X obj 522 263 +;
+#X obj 37 104 +;
+#X text 318 339 Drunk does small steps backwards and forwards up to
+a ceiling value. BPM is set from the Sequencer BPM so that the random
+synth change \; can work in tempo with the sequecner.;
+#X obj 122 197 s finalceilingvalue;
+#X obj 14 38 metro 125;
+#X obj 14 5 loadbang;
+#X connect 0 0 7 0;
+#X connect 1 0 2 0;
+#X connect 2 0 31 0;
+#X connect 4 0 1 1;
+#X connect 4 0 9 1;
+#X connect 4 0 15 1;
+#X connect 4 0 21 1;
+#X connect 4 0 37 0;
+#X connect 5 0 1 2;
+#X connect 5 0 9 2;
+#X connect 5 0 15 2;
+#X connect 5 0 21 2;
+#X connect 6 0 0 0;
+#X connect 7 0 1 0;
+#X connect 8 0 13 0;
+#X connect 9 0 10 0;
+#X connect 10 0 32 0;
+#X connect 12 0 8 0;
+#X connect 13 0 9 0;
+#X connect 14 0 19 0;
+#X connect 15 0 16 0;
+#X connect 16 0 34 0;
+#X connect 18 0 14 0;
+#X connect 19 0 15 0;
+#X connect 20 0 25 0;
+#X connect 21 0 22 0;
+#X connect 22 0 33 0;
+#X connect 24 0 20 0;
+#X connect 25 0 21 0;
+#X connect 26 0 35 1;
+#X connect 27 0 5 0;
+#X connect 28 0 7 1;
+#X connect 28 0 13 1;
+#X connect 28 0 19 1;
+#X connect 28 0 25 1;
+#X connect 29 0 35 0;
+#X connect 29 0 31 1;
+#X connect 29 0 32 1;
+#X connect 29 0 34 1;
+#X connect 29 0 33 1;
+#X connect 30 0 29 0;
+#X connect 31 0 3 0;
+#X connect 32 0 11 0;
+#X connect 33 0 23 0;
+#X connect 34 0 17 0;
+#X connect 35 0 4 0;
+#X connect 38 0 35 0;
+#X connect 39 0 38 0;
+#X restore 331 886 pd DrunkSTEPS;
+#X obj 299 335 tgl 15 0 drunkSineON empty empty 17 7 0 10 -4034 -260097
+-1 0 1;
+#X obj 299 359 tgl 15 0 drunkSquareON empty empty 17 7 0 10 -4034 -260097
+-1 0 1;
+#X obj 299 384 tgl 15 0 drunkSawtoothON QlistDrunkSaw empty 17 7 0
+10 -4034 -260097 -1 0 1;
+#X obj 299 409 tgl 15 0 drunkTriangleON empty empty 17 7 0 10 -4034
+-260097 -1 0 1;
+#X floatatom 299 456 5 0 0 0 - - DrunkCeilingValue;
+#X floatatom 307 306 5 0 0 0 - - DrunkStepValue;
+#X text 316 334 Drunk Sine;
+#X text 316 357 Drunk Square;
+#X text 316 383 Drunk Sawtooth;
+#X text 316 407 Drunk Triangle;
+#X obj 194 805 r DrunkCeilingValue;
+#X obj 256 831 r DrunkStepValue;
+#X obj 332 918 s drunkSine;
+#X obj 371 942 s drunkSquare;
+#X obj 435 964 s drunkSawtooth;
+#X obj 493 988 s drunkTriangle;
+#X obj 363 786 r drunkSineON;
+#X obj 395 810 r drunkSquareON;
+#X obj 451 858 r drunkTriangleON;
+#X obj 430 833 r drunkSawtoothON;
+#X text 223 898 RANDOM No. Gen.;
+#X obj 162 780 r DrunkMinValue;
+#X floatatom 298 433 5 0 0 0 - - DrunkMinValue;
+#X text -8 -27 Master Volume;
+#X text -146 297 THE BIG DAC OF IT ALL;
+#X text 344 307 Step Size;
+#X floatatom 299 480 5 0 0 0 - finalceilingvalue -;
+#X text 335 434 Min. value;
+#X text 335 480 Max. Value;
+#X text 334 456 Value added to Min.;
+#X text -207 621 Set as spacebar: 32;
+#X text -133 556 DRAWS THE MAIN OUTPUT ON GRAPH;
+#X text 118 341 SAWTO-;
+#X text 209 338 TRIA-;
+#X text 203 352 NGLE;
+#X msg 94 658 1 \$2 \$4 \$3 \$2;
+#X msg -185 939 0 \$2;
+#X obj 119 448 vsl 20 128 0 300 0 0 empty empty Attack 0 -9 0 10 -228856
+-99865 -1 5800 1;
+#X floatatom 119 579 5 0 0 0 - - -;
+#X obj 159 448 vsl 20 128 0 500 0 0 empty empty Decay 0 -9 0 10 -228856
+-99865 -1 7620 1;
+#X floatatom 159 579 5 0 0 0 - - -;
+#X obj 196 448 vsl 20 128 1 1000 0 0 empty empty Sustain -3 -9 0 10
+-228856 -99865 -1 5072 1;
+#X obj 240 449 vsl 20 128 0 1000 0 0 empty empty Release 0 -9 0 10
+-228856 -99865 -1 2540 1;
+#X floatatom 240 580 5 0 0 0 - - -;
+#X obj 95 635 pack f f f f;
+#X obj -185 916 pack f f;
+#X obj -185 891 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj -271 873 delay 250;
+#X floatatom 196 579 5 0 0 0 - - -;
+#X obj 319 520 filter-set~;
+#X text 277 497 (Set drunk range with add value);
+#X obj 300 640 s~ post-wet;
+#X obj 320 666 r~ pre-wet;
+#X obj 432 668 r~ pre-wet;
+#X obj 457 639 s~ post-wet;
+#X obj -430 534 s~ pre-wet;
+#X obj -430 555 r~ post-wet;
+#X text -468 517 Send signal to the wet and roomsize filters;
+#X text 355 519 =FILTERS=;
+#X obj 626 179 tgl 60 0 empty empty empty 17 7 0 10 -258113 -262144
+-1 0 1;
+#X text 635 188 BIG-RED;
+#X text 647 201 DSP;
+#X text 640 214 BUTTON;
+#X msg 988 5 \; pd dsp \$1;
+#X text 440 272 VOL;
+#X text 113 354 OTH;
+#X text -308 848 Delay on key trigger for release;
+#X obj 157 743 loadbang;
+#X msg 119 707 137;
+#X msg 159 707 300;
+#X msg 200 707 400;
+#X msg 240 706 200;
+#X text 214 740 Init start values for ADSR;
+#X obj 427 46 loadbang;
+#X msg 427 72 0.75;
+#X text 595 46 FM Synth Subpatch;
+#X text 439 29 init master vol setting;
+#X obj 917 5 loadbang;
+#X text 929 -22 Start with DSP on;
+#X obj 18 94 loadbang;
+#X msg 1 133 51;
+#X msg 36 132 31;
+#X msg 70 132 0.3;
+#X text -41 164 Init note for playback;
+#X text -30 183 at start (0.3 Vol);
+#X floatatom 485 133 5 0 0 0 - - -;
+#X text 429 256 MASTER;
+#X text 584 192 FM;
+#X floatatom 512 133 5 0 0 0 - - -;
+#X floatatom 541 132 5 0 0 0 - - -;
+#X obj 696 195 tgl 15 0 empty empty empty 17 7 0 10 -228856 -260097
+-1 0 1;
+#X obj 691 657 line~;
+#X msg 692 630 \$1 25;
+#X obj 692 683 *~;
+#X obj 723 684 osc~;
+#X floatatom 696 342 5 0 0 0 - - -;
+#X obj 696 211 vsl 15 128 0 1 0 0 empty empty empty 0 -9 0 10 -228856
+-260097 -1 9525 1;
+#X obj 730 195 tgl 15 0 empty empty empty 17 7 0 10 -228856 -260097
+-1 0 1;
+#X obj 775 657 line~;
+#X msg 776 630 \$1 25;
+#X obj 776 683 *~;
+#X obj 807 684 osc~;
+#X floatatom 729 342 5 0 0 0 - - -;
+#X obj 730 211 vsl 15 128 0 1 0 0 empty empty empty 0 -9 0 10 -228856
+-260097 -1 9525 1;
+#X obj 761 194 tgl 15 0 empty empty empty 17 7 0 10 -228856 -260097
+-1 0 1;
+#X obj 863 658 line~;
+#X msg 864 631 \$1 25;
+#X obj 864 684 *~;
+#X obj 895 685 osc~;
+#X floatatom 762 342 5 0 0 0 - - -;
+#X obj 761 210 vsl 15 128 0 1 0 0 empty empty empty 0 -9 0 10 -228856
+-260097 -1 9525 1;
+#X obj 795 194 tgl 15 0 empty empty empty 17 7 0 10 -228856 -260097
+-1 0 1;
+#X obj 952 663 line~;
+#X msg 953 636 \$1 25;
+#X obj 953 689 *~;
+#X obj 984 690 osc~;
+#X floatatom 795 342 5 0 0 0 - - -;
+#X obj 795 210 vsl 15 128 0 1 0 0 empty empty empty 0 -9 0 10 -228856
+-260097 -1 9525 1;
+#X obj 828 194 tgl 15 0 empty empty empty 17 7 0 10 -228856 -260097
+-1 0 1;
+#X obj 1035 661 line~;
+#X msg 1036 634 \$1 25;
+#X obj 1036 687 *~;
+#X obj 1067 688 osc~;
+#X floatatom 828 343 5 0 0 0 - - -;
+#X obj 828 210 vsl 15 128 0 1 0 0 empty empty empty 0 -9 0 10 -228856
+-260097 -1 9525 1;
+#X obj 697 362 tgl 15 0 empty empty empty 17 7 0 10 -228856 -260097
+-1 0 1;
+#X obj 1118 664 line~;
+#X msg 1119 637 \$1 25;
+#X obj 1119 690 *~;
+#X obj 1150 691 osc~;
+#X floatatom 697 510 5 0 0 0 - - -;
+#X obj 697 378 vsl 15 128 0 1 0 0 empty empty empty 0 -9 0 10 -228856
+-260097 -1 9525 1;
+#X obj 730 363 tgl 15 0 empty empty empty 17 7 0 10 -228856 -260097
+-1 0 1;
+#X obj 1198 667 line~;
+#X msg 1199 640 \$1 25;
+#X obj 1199 693 *~;
+#X obj 1230 694 osc~;
+#X floatatom 730 510 5 0 0 0 - - -;
+#X obj 730 379 vsl 15 128 0 1 0 0 empty empty empty 0 -9 0 10 -228856
+-260097 -1 9525 1;
+#X obj 763 362 tgl 15 0 empty empty empty 17 7 0 10 -228856 -260097
+-1 0 1;
+#X obj 1277 667 line~;
+#X msg 1278 640 \$1 25;
+#X obj 1278 693 *~;
+#X obj 1309 694 osc~;
+#X floatatom 763 510 5 0 0 0 - - -;
+#X obj 763 378 vsl 15 128 0 1 0 0 empty empty empty 0 -9 0 10 -228856
+-260097 -1 9525 1;
+#X obj 1036 740 *~;
+#X obj 696 128 bng 50 250 50 0 empty QlistADDon empty 17 7 0 10 -4160
+-1 -1;
+#X obj 795 361 tgl 15 0 empty empty empty 17 7 0 10 -228856 -260097
+-1 0 1;
+#X obj 1359 670 line~;
+#X msg 1360 643 \$1 25;
+#X obj 1360 696 *~;
+#X obj 1391 697 osc~;
+#X floatatom 795 510 5 0 0 0 - - -;
+#X obj 795 378 vsl 15 128 0 1 0 0 empty empty empty 0 -9 0 10 -228856
+-260097 -1 9525 1;
+#X obj 827 362 tgl 15 0 empty empty empty 17 7 0 10 -228856 -260097
+-1 0 1;
+#X obj 1440 670 line~;
+#X msg 1441 643 \$1 25;
+#X obj 1441 696 *~;
+#X obj 1472 697 osc~;
+#X floatatom 827 510 5 0 0 0 - - -;
+#X obj 827 379 vsl 15 128 0 1 0 0 empty empty empty 0 -9 0 10 -228856
+-260097 -1 9525 1;
+#X floatatom 779 149 10 0 0 2 - - -;
+#X obj 1192 143 * 1;
+#X obj 1221 143 * 2;
+#X obj 1250 142 * 3;
+#X obj 1278 142 * 4;
+#X obj 1307 142 * 5;
+#X obj 1336 140 * 6;
+#X obj 1364 141 * 7;
+#X obj 1393 141 * 8;
+#X obj 1420 141 * 9;
+#X obj 1445 140 * 10;
+#X text 751 124 Fundamental Frequency;
+#X obj 1037 806 s~ additiveSine;
+#X text 708 136 ALL;
+#X text 702 149 ON/OFF;
+#X text 320 688 Filters of roomsize \, wet and dry (open to view);
+#X obj -367 454 r~ additiveSine;
+#X obj -426 471 +~;
+#X text -387 475 Additive synth is added here;
+#X obj 870 164 vsl 25 400 0 1 0 0 additiveSineVolSet empty empty 0
+40 0 10 -228856 -260097 -99865 0 1;
+#X text 873 306 VOL;
+#X obj 1037 775 *~;
+#X obj 1174 756 r additiveSineVolSet;
+#X obj 1084 773 line~;
+#X msg 1084 746 \$1 25;
+#X text 693 542 How to use: Change levels of;
+#X text 694 567 the sine waves and fundamnetal;
+#X text 693 583 frequency;
+#X msg 960 99 0.75;
+#X text 963 82 Init Start volume for Add synth components;
+#X text 845 759 Volume and ouput from Add Synth;
+#X obj 1131 770 / 100;
+#X msg -364 607 1;
+#X obj -364 585 r QlistFMaON;
+#X obj -404 629 r QlistFMaOFF;
+#X text 1257 121 Ratios for Additive Synth;
+#X obj 779 78 r QlistAddF;
+#X obj 871 82 r QlistAddV;
+#X msg -404 653 0 4000;
+#X connect 0 0 2 1;
+#X connect 1 0 3 1;
+#X connect 2 0 4 0;
+#X connect 3 0 2 0;
+#X connect 4 0 87 0;
+#X connect 5 0 26 1;
+#X connect 6 0 0 1;
+#X connect 7 0 82 0;
+#X connect 8 0 82 1;
+#X connect 9 0 1 1;
+#X connect 24 0 26 0;
+#X connect 25 0 1 0;
+#X connect 26 0 4 1;
+#X connect 27 0 0 0;
+#X connect 28 0 56 0;
+#X connect 29 0 96 0;
+#X connect 30 0 28 1;
+#X connect 42 1 89 1;
+#X connect 47 0 97 0;
+#X connect 49 0 47 0;
+#X connect 50 0 47 1;
+#X connect 51 0 47 2;
+#X connect 55 0 57 0;
+#X connect 57 0 60 0;
+#X connect 57 0 68 0;
+#X connect 57 0 68 1;
+#X connect 57 0 83 0;
+#X connect 58 0 59 0;
+#X connect 59 0 61 0;
+#X connect 60 0 61 0;
+#X connect 62 0 63 0;
+#X connect 63 0 65 0;
+#X connect 63 0 86 0;
+#X connect 65 0 66 0;
+#X connect 66 0 64 0;
+#X connect 67 0 58 0;
+#X connect 82 0 3 0;
+#X connect 84 0 31 0;
+#X connect 84 0 31 1;
+#X connect 85 0 57 1;
+#X connect 86 0 85 0;
+#X connect 87 0 89 0;
+#X connect 89 0 281 0;
+#X connect 90 0 42 1;
+#X connect 92 0 42 0;
+#X connect 93 0 94 3;
+#X connect 94 0 91 0;
+#X connect 95 0 94 0;
+#X connect 95 0 187 0;
+#X connect 96 0 146 0;
+#X connect 96 0 149 0;
+#X connect 97 1 87 1;
+#X connect 98 0 97 1;
+#X connect 99 0 94 1;
+#X connect 99 0 190 0;
+#X connect 100 0 94 2;
+#X connect 100 0 191 0;
+#X connect 101 0 114 0;
+#X connect 101 1 115 0;
+#X connect 101 2 116 0;
+#X connect 101 3 117 0;
+#X connect 112 0 101 1;
+#X connect 113 0 101 2;
+#X connect 118 0 101 3;
+#X connect 119 0 101 4;
+#X connect 120 0 101 6;
+#X connect 121 0 101 5;
+#X connect 123 0 101 0;
+#X connect 137 0 30 0;
+#X connect 138 0 30 0;
+#X connect 139 0 140 0;
+#X connect 140 0 146 1;
+#X connect 141 0 142 0;
+#X connect 142 0 146 2;
+#X connect 143 0 150 0;
+#X connect 144 0 145 0;
+#X connect 145 0 147 1;
+#X connect 146 0 137 0;
+#X connect 147 0 138 0;
+#X connect 148 0 147 0;
+#X connect 149 0 148 0;
+#X connect 150 0 149 1;
+#X connect 151 0 153 0;
+#X connect 151 1 156 0;
+#X connect 154 0 151 0;
+#X connect 155 0 151 1;
+#X connect 158 0 28 0;
+#X connect 161 0 165 0;
+#X connect 169 0 170 0;
+#X connect 169 0 171 0;
+#X connect 169 0 172 0;
+#X connect 169 0 173 0;
+#X connect 170 0 139 0;
+#X connect 171 0 141 0;
+#X connect 172 0 143 0;
+#X connect 173 0 144 0;
+#X connect 175 0 176 0;
+#X connect 176 0 32 0;
+#X connect 179 0 161 0;
+#X connect 179 0 292 0;
+#X connect 181 0 182 0;
+#X connect 181 0 183 0;
+#X connect 181 0 184 0;
+#X connect 182 0 10 0;
+#X connect 183 0 14 0;
+#X connect 184 0 11 0;
+#X connect 184 0 15 0;
+#X connect 192 0 195 1;
+#X connect 193 0 195 0;
+#X connect 194 0 193 0;
+#X connect 195 0 248 1;
+#X connect 196 0 248 0;
+#X connect 197 0 196 0;
+#X connect 198 0 194 0;
+#X connect 199 0 202 1;
+#X connect 200 0 202 0;
+#X connect 201 0 200 0;
+#X connect 202 0 248 1;
+#X connect 203 0 248 0;
+#X connect 204 0 203 0;
+#X connect 205 0 201 0;
+#X connect 206 0 209 1;
+#X connect 207 0 209 0;
+#X connect 208 0 207 0;
+#X connect 209 0 248 1;
+#X connect 210 0 248 0;
+#X connect 211 0 210 0;
+#X connect 212 0 208 0;
+#X connect 213 0 216 1;
+#X connect 214 0 216 0;
+#X connect 215 0 214 0;
+#X connect 216 0 248 1;
+#X connect 217 0 248 0;
+#X connect 218 0 217 0;
+#X connect 219 0 215 0;
+#X connect 220 0 223 1;
+#X connect 221 0 223 0;
+#X connect 222 0 221 0;
+#X connect 223 0 248 1;
+#X connect 224 0 248 0;
+#X connect 225 0 224 0;
+#X connect 226 0 222 0;
+#X connect 227 0 230 1;
+#X connect 228 0 230 0;
+#X connect 229 0 228 0;
+#X connect 230 0 248 1;
+#X connect 231 0 248 0;
+#X connect 232 0 231 0;
+#X connect 233 0 229 0;
+#X connect 234 0 237 1;
+#X connect 235 0 237 0;
+#X connect 236 0 235 0;
+#X connect 237 0 248 1;
+#X connect 238 0 248 0;
+#X connect 239 0 238 0;
+#X connect 240 0 236 0;
+#X connect 241 0 244 1;
+#X connect 242 0 244 0;
+#X connect 243 0 242 0;
+#X connect 244 0 248 1;
+#X connect 245 0 248 0;
+#X connect 246 0 245 0;
+#X connect 247 0 243 0;
+#X connect 248 0 285 0;
+#X connect 249 0 241 0;
+#X connect 249 0 234 0;
+#X connect 249 0 227 0;
+#X connect 249 0 220 0;
+#X connect 249 0 213 0;
+#X connect 249 0 206 0;
+#X connect 249 0 199 0;
+#X connect 249 0 192 0;
+#X connect 249 0 250 0;
+#X connect 249 0 257 0;
+#X connect 250 0 253 1;
+#X connect 251 0 253 0;
+#X connect 252 0 251 0;
+#X connect 253 0 248 1;
+#X connect 254 0 248 0;
+#X connect 255 0 254 0;
+#X connect 256 0 252 0;
+#X connect 257 0 260 1;
+#X connect 258 0 260 0;
+#X connect 259 0 258 0;
+#X connect 260 0 248 1;
+#X connect 261 0 248 0;
+#X connect 262 0 261 0;
+#X connect 263 0 259 0;
+#X connect 264 0 265 0;
+#X connect 264 0 266 0;
+#X connect 264 0 267 0;
+#X connect 264 0 268 0;
+#X connect 264 0 269 0;
+#X connect 264 0 270 0;
+#X connect 264 0 271 0;
+#X connect 264 0 272 0;
+#X connect 264 0 273 0;
+#X connect 264 0 274 0;
+#X connect 265 0 197 0;
+#X connect 266 0 204 0;
+#X connect 267 0 211 0;
+#X connect 268 0 218 0;
+#X connect 269 0 225 0;
+#X connect 270 0 232 0;
+#X connect 271 0 239 0;
+#X connect 272 0 246 0;
+#X connect 273 0 255 0;
+#X connect 274 0 262 0;
+#X connect 280 0 281 1;
+#X connect 281 0 157 0;
+#X connect 285 0 276 0;
+#X connect 286 0 295 0;
+#X connect 287 0 285 1;
+#X connect 288 0 287 0;
+#X connect 292 0 226 0;
+#X connect 292 0 219 0;
+#X connect 292 0 212 0;
+#X connect 292 0 205 0;
+#X connect 292 0 198 0;
+#X connect 292 0 263 0;
+#X connect 292 0 256 0;
+#X connect 292 0 247 0;
+#X connect 292 0 240 0;
+#X connect 292 0 233 0;
+#X connect 295 0 288 0;
+#X connect 296 0 30 0;
+#X connect 297 0 296 0;
+#X connect 298 0 302 0;
+#X connect 300 0 264 0;
+#X connect 301 0 283 0;
+#X connect 302 0 30 0;
+#X coords 0 -1 1 1 810 510 1 100 100;
